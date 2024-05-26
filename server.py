@@ -4,7 +4,7 @@ from chain import *
 from __init import *
 from main import *
 
-sio = socketio.Server(cors_allowed_origins='http://localhost:3000', ping_timeout=300, ping_interval=15)
+sio = socketio.Server(cors_allowed_origins='*', ping_timeout=300, ping_interval=15)
 
 clientSid = {}
 

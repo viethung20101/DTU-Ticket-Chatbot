@@ -16,7 +16,7 @@ def format_data():
             {data.iloc[i, 6]}
             {data.iloc[i, 7]}
             {data.iloc[i, 8]}
-            Giá vé {data.iloc[i, 1]}: {int(data.iloc[i, 2])} VND
+            Giá vé {data.iloc[i, 1]}: {int(data.iloc[i, 2])} Việt Nam Đồng
             """
     return data_format
 

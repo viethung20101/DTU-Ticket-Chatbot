@@ -24,3 +24,22 @@ embeddings = CustomOpenAIEmbeddings(
     openai_api_base=OPENAI_URL,
     openai_api_key="lm-studio"
 )
+
+# llm_chat = ChatOpenAI(
+#     temperature=0.6,
+#     openai_api_key=OPENAI_KEY
+# )
+
+# llm_data = ChatOpenAI(
+#     temperature=0.3,
+#     openai_api_key=OPENAI_KEY
+# )
+
+# llm_checker = ChatOpenAI(
+#     temperature=0,
+#     api_key=OPENAI_KEY
+# )
+
+# embeddings = CustomOpenAIEmbeddings(
+#     openai_api_key=OPENAI_KEY
+# )
