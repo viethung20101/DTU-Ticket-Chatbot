@@ -32,7 +32,8 @@ def create_vector_store(content, embeddings, chunk_size = 1024, chunk_overlap = 
     vectorstore = Qdrant.from_texts(
         splits,
         embeddings,
-        location=":memory:",  # Local mode with in-memory storage only
+        # location=":memory:",
+        path="data",# Local mode with in-memory storage only
         collection_name="ticket",
     )
     
